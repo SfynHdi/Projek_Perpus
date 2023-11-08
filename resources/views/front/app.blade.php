@@ -11,7 +11,7 @@
     <title>Cyborg - Awesome HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
@@ -40,8 +40,8 @@ https://templatemo.com/tm-579-cyborg-gaming
 </div>
       <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/frontend/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/frontend/vendor/bootstrap/js/bootstrap.min.js"></script>
 
   <script src="assets/frontend/js/isotope.min.js"></script>
   <script src="assets/frontend/js/owl-carousel.js"></script>
