@@ -1,0 +1,102 @@
+@extends('front.app')
+@section('title', 'Home')
+@section('content')
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Beranda</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Beranda</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h1 class="display-5 mb-5">Our Services</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">General Carpentry</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/service-2.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Furniture Manufacturing</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/service-3.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Furniture Remodeling</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/service-4.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Wooden Floor</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/service-5.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Wooden Furniture</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="service-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/service-6.jpg" alt="">
+                            </div>
+                            <div class="p-4 text-center border border-5 border-light border-top-0">
+                                <h4 class="mb-3">Custom Work</h4>
+                                <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @endsection

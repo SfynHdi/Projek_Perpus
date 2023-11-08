@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('front.home.index');
 });
   
     Route::group(['namespace' => 'App\Http\Controllers'], function () { 
@@ -28,3 +28,6 @@ Route::get('/', function () {
      
         });
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
