@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('auth.register');
     }
+    public function indexhome()
+    {
+        return view('home');
+    }
+    
 }
