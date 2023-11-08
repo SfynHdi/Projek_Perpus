@@ -100,7 +100,8 @@ label {
         <h2>LOGIN PERPUSTAKAAN</h2>
         <div class="underline-title"></div>
       </div>
-      <form method="post" class="form">
+      <form method="post" action= "{{route('login')}}"class="form">
+        @csrf
         <label for="user-email" style="padding-top:25px">
             &nbsp;Email
           </label>
