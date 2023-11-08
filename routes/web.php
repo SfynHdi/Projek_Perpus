@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +14,6 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
     return view('auth.login');
 }); 
 
@@ -29,20 +26,4 @@ Route::get('/', function () {
      
         });
 
-=======
-    return view('front.home.index');
->>>>>>> a2dc0431e6433636cb0ced48cf6d210b4308e485
 });
-  
-    Route::group(['namespace' => 'App\Http\Controllers'], function () { 
-        Route::get('/register', 'Frontend\HomeFrontController@index')->name('register'); 
-    }); 
-     
-    Route::group(['namespace' => 'App\Http\Controllers'], function () { 
-        Route::group(['middleware' => ['auth']], function () { 
-     
-        });
-});
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
