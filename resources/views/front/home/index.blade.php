@@ -33,7 +33,7 @@
                 <div class="row">
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src="assets/images/popular-01.jpg" alt="">
+                      <img src="assets/frontend/images/popular-01.jpg" alt="">
                       <h4>Fortnite<br><span>Sandbox</span></h4>
                       <ul>
                         <li><i class="fa fa-star"></i> 4.8</li>
@@ -43,7 +43,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src="assets/images/popular-02.jpg" alt="">
+                      <img src="assets/frontend/images/popular-02.jpg" alt="">
                       <h4>PubG<br><span>Battle S</span></h4>
                       <ul>
                         <li><i class="fa fa-star"></i> 4.8</li>
@@ -53,7 +53,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src="assets/images/popular-03.jpg" alt="">
+                      <img src="assets/frontend/images/popular-03.jpg" alt="">
                       <h4>Dota2<br><span>Steam-X</span></h4>
                       <ul>
                         <li><i class="fa fa-star"></i> 4.8</li>
@@ -63,7 +63,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src="assets/images/popular-04.jpg" alt="">
+                      <img src="assets/frontend/images/popular-04.jpg" alt="">
                       <h4>CS-GO<br><span>Legendary</span></h4>
                       <ul>
                         <li><i class="fa fa-star"></i> 4.8</li>
@@ -76,7 +76,7 @@
                       <div class="row">
                         <div class="col-lg-6 col-sm-6">
                           <div class="item inner-item">
-                            <img src="assets/images/popular-05.jpg" alt="">
+                            <img src="assets/frontend/images/popular-05.jpg" alt="">
                             <h4>Mini Craft<br><span>Legendary</span></h4>
                             <ul>
                               <li><i class="fa fa-star"></i> 4.8</li>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-lg-6 col-sm-6">
                           <div class="item">
-                            <img src="assets/images/popular-06.jpg" alt="">
+                            <img src="assets/frontend/images/popular-06.jpg" alt="">
                             <h4>Eagles Fly<br><span>Matrix Games</span></h4>
                             <ul>
                               <li><i class="fa fa-star"></i> 4.8</li>
@@ -99,7 +99,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src="assets/images/popular-07.jpg" alt="">
+                      <img src="assets/frontend/images/popular-07.jpg" alt="">
                       <h4>Warface<br><span>Max 3D</span></h4>
                       <ul>
                         <li><i class="fa fa-star"></i> 4.8</li>
@@ -109,7 +109,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src="assets/images/popular-08.jpg" alt="">
+                      <img src="assets/frontend/images/popular-08.jpg" alt="">
                       <h4>Warcraft<br><span>Legend</span></h4>
                       <ul>
                         <li><i class="fa fa-star"></i> 4.8</li>
@@ -136,7 +136,7 @@
               </div>
               <div class="item">
                 <ul>
-                  <li><img src="assets/images/game-01.jpg" alt="" class="templatemo-item"></li>
+                  <li><img src="assets/frontend/images/game-01.jpg" alt="" class="templatemo-item"></li>
                   <li><h4>Dota 2</h4><span>Sandbox</span></li>
                   <li><h4>Date Added</h4><span>24/08/2036</span></li>
                   <li><h4>Hours Played</h4><span>634 H 22 Mins</span></li>
@@ -146,7 +146,7 @@
               </div>
               <div class="item">
                 <ul>
-                  <li><img src="assets/images/game-02.jpg" alt="" class="templatemo-item"></li>
+                  <li><img src="assets/frontend/images/game-02.jpg" alt="" class="templatemo-item"></li>
                   <li><h4>Fortnite</h4><span>Sandbox</span></li>
                   <li><h4>Date Added</h4><span>22/06/2036</span></li>
                   <li><h4>Hours Played</h4><span>740 H 52 Mins</span></li>
@@ -156,7 +156,7 @@
               </div>
               <div class="item last-item">
                 <ul>
-                  <li><img src="assets/images/game-03.jpg" alt="" class="templatemo-item"></li>
+                  <li><img src="assets/frontend/images/game-03.jpg" alt="" class="templatemo-item"></li>
                   <li><h4>CS-GO</h4><span>Sandbox</span></li>
                   <li><h4>Date Added</h4><span>21/04/2036</span></li>
                   <li><h4>Hours Played</h4><span>892 H 14 Mins</span></li>
