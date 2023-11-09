@@ -1,4 +1,5 @@
-<header class="header-area header-sticky">
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -17,13 +18,13 @@
                     </div>
                     <!-- ***** Search End ***** -->
                     <!-- ***** Menu Start ***** -->
-                    <!-- <ul class="nav">
+                    <ul class="nav">
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="browse.html">Browse</a></li>
                         <li><a href="details.html">Details</a></li>
                         <li><a href="streams.html">Streams</a></li>
                         <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
-                    </ul>    -->
+                    </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -33,3 +34,4 @@
         </div>
     </div>
   </header>
+  <!-- ***** Header Area End ***** -->

@@ -7,14 +7,14 @@ Route::get('/', function () {
 }); 
 
 
-    Route::group(['namespace' => 'App\Http\Controllers'], function () { 
-        Route::get('/register', 'Frontend\HomeFrontController@index')->name('register'); 
-    }); 
-     
-    Route::group(['namespace' => 'App\Http\Controllers'], function () { 
-        Route::group(['middleware' => ['auth']], function () { 
-            Route::get('/kategori', 'Frontend\KategoriFrontController@index')->name('kategori');
-     
-        });
-
+Route::group(['namespace' => 'App\Http\Controllers'], function () { 
+    Route::get('/register', 'Frontend\HomeFrontController@index')->name('register'); 
+    Route::get('/kategori', 'Frontend\KategoriFrontController@index')->name('kategori');
+    Route::get('/detail-buku', 'Frontend\DetailBukuFrontController@index')->name('detail.buku');
+}); 
+    
+Route::group(['namespace' => 'App\Http\Controllers'], function () { 
+    Route::group(['middleware' => ['auth']], function () { 
+    
+    });
 });
