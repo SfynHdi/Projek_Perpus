@@ -6,7 +6,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="">
+                        <img src="{{ url('assets/frontend/images/logo.png') }}" alt="">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Search End ***** -->
@@ -19,10 +19,10 @@
                     <!-- ***** Search End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="browse.html">Browse</a></li>
-                        <li><a href="details.html">Details</a></li>
-                        <li><a href="streams.html">Streams</a></li>
+                        <li><a href="/" class="active">Home</a></li>
+                        <li><a href="{{ route ('basingkamu') }}">Basing</a></li>
+                        <li><a href="{{ route ('detail_buku') }}">detail buku</a></li>
+                        <li><a href="{{ route ('kategori') }}">kategori</a></li>
                         <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
                     </ul>   
                     <a class='menu-trigger'>
