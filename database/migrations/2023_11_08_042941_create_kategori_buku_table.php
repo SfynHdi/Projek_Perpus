@@ -13,14 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('buku', function (Blueprint $table) {
+        Schema::create('kategori_buku', function (Blueprint $table) {
             $table->id();
-            $table->string('judul');
-            $table->string('sinopsis');
-            $table->string('penerbit');
-            $table->char('tahun_terbit');
-            $table->char('harga');
-            $table->foreignId('id_penulis')->notNull()->references('id')->on('penulis')->onUpdate('cascade')->onDelete('cascade');
+            $table->string('nama_kategori');
+            $table->string('deskripsi');
             $table->timestamps();
         });
     }
@@ -32,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('buku');
+        Schema::dropIfExists('kategori_buku');
     }
 };

@@ -43,10 +43,10 @@ https://templatemo.com/tm-579-cyborg-gaming
   </div>
 
 
-  @include('front._partials.header')
+  @include('Backend._partials.header')
 
   @yield('content')
-  @include('front._partials.footer')
+  @include('Backend._partials.footer')
 
 
   <!-- Scripts -->
