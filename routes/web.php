@@ -10,7 +10,10 @@ Route::get('/', function () {
 Route::group(['namespace' => 'App\Http\Controllers'], function () { 
     Route::get('/register', 'Frontend\HomeFrontController@index')->name('register'); 
     Route::get('/kategori', 'Frontend\KategoriFrontController@index')->name('kategori');
+    Route::get('/kategori_index', 'Backend\KategoriBackendController@indexKategori')->name('kategori_index');
     Route::get('/detail-buku', 'Frontend\DetailBukuFrontController@index')->name('detail.buku');
+    Route::get('/home', 'Frontend\HomeFrontController@indexhome')->name('home.index');
+    
 }); 
     
 Route::group(['namespace' => 'App\Http\Controllers'], function () { 

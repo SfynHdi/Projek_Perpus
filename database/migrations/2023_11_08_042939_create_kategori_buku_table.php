@@ -17,6 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('nama_kategori');
             $table->string('deskripsi');
+            $table->string('created_by');
+            $table->string('updated_by');
             $table->timestamps();
         });
     }
