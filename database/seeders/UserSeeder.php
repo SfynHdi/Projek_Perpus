@@ -6,26 +6,21 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Auth;
 
-
-class UsersSeeder extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
+     *
+     * @return void
      */
-    public function run(): void
+    public function run()
     {
         DB::table('users')->insert([
-            'name' => 'Dhita Humdana',
-            'username' => 'Dhita',
-            'password' => Hash::make('1234567890'),
-            'nama_lengkap' => 'Dhita Humdana',
-            'alamat' => 'Pringsewu',
-            'nomor_telpon' => '088276257481',
-            'email' => 'dhitahumdana@gmail.com',
+            'name' => 'Admin',
+            'username' => 'Administrator',
+            'password' => Hash::make('12345678'),
+            'email' => 'admin@gmail.com',
         ]);
-
     }
-
 }

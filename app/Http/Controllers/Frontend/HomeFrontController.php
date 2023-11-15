@@ -10,4 +10,9 @@ class HomeFrontController extends Controller
     public function index(){
         return view('auth.register');
     }
+    public function indexhome()
+    {
+        return view('Backend.home.index');
+    }
+    
 }

@@ -5,7 +5,7 @@
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
-            <img src="assets/images/logo.png" alt="">
+            <img src="assets/frontend/images/logo.png" alt="">
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Search End ***** -->
@@ -18,12 +18,12 @@
           <!-- ***** Search End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="{{('home.index')}}" class="active">Home</a></li>
             <li><a href="browse.html">Browse</a></li>
             <li class="has-sub">
               <a class="has-sub dropdown-toggle" href="javascript:void(0)">Kategori</a>
               <ul class="sub-menu">
-                <li><a href="{{('kategori')}}"></a></li><br>
+                <li><a href="{{('kategori_index')}}">Tambah Kategori</a></li><br>
                 <li><a href="{{('kategori')}}">About Us</a></li><br>
                 <li><a href="faqs.html">FAQs</a></li>
               </ul>
