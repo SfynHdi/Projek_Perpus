@@ -5,7 +5,7 @@
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
-            <img src="assets/images/logo.png" alt="">
+            <img src="{{ url('assets/frontend/images/logo.png')}}" alt="">
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Search End ***** -->
@@ -18,18 +18,34 @@
           <!-- ***** Search End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="browse.html">Browse</a></li>
+<<<<<<< HEAD
+            <li><a href="/" class="active">Beranda</a></li>
+            <li><a href="{{ route ('tentang')}}">Tentang</a></li>
             <li class="has-sub">
               <a class="has-sub dropdown-toggle" href="javascript:void(0)">Kategori</a>
               <ul class="sub-menu">
-                <li><a href="{{('kategori')}}"></a></li><br>
+                
+              <li><a href="{{('kategori')}}">Kosong</a></li><br>
+              
+              </ul>
+            </li>
+            <li><a href="{{ route ('kontak') }}">Kontak</a></li>
+=======
+            <li class="has-sub">
+              <a class="has-sub dropdown-toggle" href="javascript:void(0)">Kategori</a>
+              <ul class="sub-menu">
+                <li><a href="{{('kategori_index')}}">Tambah Kategori</a></li><br>
                 <li><a href="{{('kategori')}}">About Us</a></li><br>
                 <li><a href="faqs.html">FAQs</a></li>
               </ul>
             </li>
+            <li><a href="{{('home.index')}}" class="active">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+
             <li><a href="streams.html">Streams</a></li>
+>>>>>>> f79f71679b8182961305c674af5aefe1422580b7
             <li><a href="profile.html">Profile <img src="assets/frontend/images/profile-header.jpg" alt=""></a></li>
+
           </ul>
           <a class="menu-trigger">
             <span>Menu</span>

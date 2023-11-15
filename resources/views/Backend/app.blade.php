@@ -40,7 +40,7 @@ https://templatemo.com/tm-579-cyborg-gaming
         <span></span>
       </div>
     </div>
-  </div>
+  </div>  
 
 
   @include('Backend._partials.header')
